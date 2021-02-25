@@ -6,16 +6,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    }
+}
 
 @viewport {
-    width: device-width ;
-    zoom: 1.0 ;
+    width: device-width;
+    zoom: 1.0;
 }
 
 .middle {
     background: rgba(46, 49, 49, 0.5);
-    -pie-background:  rgba(46, 49, 49, 1);
+    -pie-background: rgba(46, 49, 49, 1);
     behavior: url(PIE.htc);
 }
 
@@ -40,6 +40,7 @@ div.desc {
 
 * {
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .responsive {
