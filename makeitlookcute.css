@@ -21,7 +21,7 @@ body {
 
 div.gallery {
     border: 1px solid #FF8A65;
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 div.gallery:hover {
