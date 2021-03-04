@@ -32,8 +32,11 @@
     </p>
     <p style="text-align: center;">
       <span style="color: #E57373;font-size:50px;">
-        <a style="color: #E57373;" href="page-1.html">Backgrounds!
-        </a>
+        <!-- <a style="color: #E57373;" href="page-1.html">Backgrounds!
+        </a>-->
+        <button class="button button1"; onclick="window.location.href='page-1.html';">
+          I want backgrounds!
+        </button>    
       </span>
     </p>
     <p>&nbsp;</p>
@@ -62,7 +65,32 @@
 </html>
 
 <style>
+
   * {
     overflow: hidden;
   }
+  .button {
+  border: none;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 3px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #FF8A65; 
+  color: #FFECB3; 
+  border: 2px solid #FF8A65;
+}
+
+.button1:hover {
+  background-color: #E57373;
+  color: #FFECB3;
+}
+
 </style>
