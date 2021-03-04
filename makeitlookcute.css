@@ -27,6 +27,7 @@ body {
 div.gallery img {
     width: 100%;
     height: 90px;
+    border: 2px solid #FF8A65;
 }
 
 div.desc {
