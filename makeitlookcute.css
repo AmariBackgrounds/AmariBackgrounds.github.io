@@ -19,10 +19,10 @@ body {
     behavior: url(PIE.htc);
 }
 
-div.gallery {
+/* div.gallery {
     border: 1px solid #FF8A65;
     margin-top: 10px;
-}
+} */
 
 div.gallery img {
     width: 100%;
