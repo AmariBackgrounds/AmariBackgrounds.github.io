@@ -37,6 +37,7 @@ div.desc {
 
 * {
     box-sizing: border-box;
+    font-family: Arial;
 }
 
 .responsive {
@@ -67,7 +68,3 @@ div.desc {
     display: table;
     clear: both;
 }
-
-p {
-    font-family: Arial;
-    }
