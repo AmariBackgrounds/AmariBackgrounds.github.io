@@ -67,3 +67,7 @@ div.desc {
     display: table;
     clear: both;
 }
+
+p {
+    font-family: Arial;
+    }
