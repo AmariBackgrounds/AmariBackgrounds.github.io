@@ -1,22 +1,22 @@
 body {
-    background-color: #FF8A65;
-    background-image: url("./assets/site/background.png");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-color: #ff8a65;
+  background-image: url("./assets/site/background.png");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @viewport {
-    width: device-width;
-    zoom: 1.0;
+  width: device-width;
+  zoom: 1;
 }
 
 .middle {
-    background: rgba(46, 49, 49, 0.5);
-    -pie-background: rgba(46, 49, 49, 1);
-    behavior: url(PIE.htc);
+  background: rgba(46, 49, 49, 0.5);
+  -pie-background: rgba(46, 49, 49, 1);
+  behavior: url(PIE.htc);
 }
 
 /* div.gallery {
@@ -25,46 +25,46 @@ body {
 } */
 
 div.gallery img {
-    width: 100%;
-    height: 90px;
-    border: 2px solid #FF8A65;
+  width: 100%;
+  height: 90px;
+  border: 2px solid #ff8a65;
 }
 
 div.desc {
-    padding: 15px;
-    text-align: center;
+  padding: 15px;
+  text-align: center;
 }
 
 * {
-    box-sizing: border-box;
-    font-family: Arial;
+  box-sizing: border-box;
+  font-family: Arial;
 }
 
 .responsive {
-    padding: 0 2px;
-    float: left;
-    width: 24.99999%;
+  padding: 0 2px;
+  float: left;
+  width: 24.99999%;
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 700px) {
-    .responsive {
-        width: 49.99999%;
-        margin: 0px 0;
-    }
+  .responsive {
+    width: 49.99999%;
+    margin: 0px 0;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .responsive {
-        width: 100%;
-    }
+  .responsive {
+    width: 100%;
+  }
 }
 
 .clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
