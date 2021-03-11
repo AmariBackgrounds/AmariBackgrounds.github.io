@@ -7,3 +7,4 @@ Public website for all those fancy AmariBot backgrounds requested by users like 
 
 - *GhostieSpook* - Original creator.
 - *Siid* - Did stuffs and things to make it work.
+- *Kyu* - Made things pretty :D
