@@ -25,7 +25,38 @@
   <link rel="stylesheet" type="text/css" href="./makeitlookcute.css">
 </head>
 
+<script>
+  var zoomImg = function () {
+    var clone = this.cloneNode();
+    clone.classList.remove("zoomD");
+
+    var lb = document.getElementById("lb-img");
+    lb.innerHTML = "";
+    lb.appendChild(clone);
+
+    lb = document.getElementById("lb-back");
+    lb.classList.add("show");
+  };
+
+  window.addEventListener("load", function () {
+    var images = document.getElementsByClassName("zoomD");
+    if (images.length > 0) {
+      for (var img of images) {
+        img.addEventListener("click", zoomImg);
+      }
+    }
+
+    document.getElementById("lb-back").addEventListener("click", function () {
+      this.classList.remove("show");
+    })
+  });
+</script>
+
 <body>
+  <div id="lb-back">
+    <div id="lb-img"></div>
+  </div>
+
   <div class="main">
     <p>&nbsp;
     </p>
@@ -61,265 +92,265 @@
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-157.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-157.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-158.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-158.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-159.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-159.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-160.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-160.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-161.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-161.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-162.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-162.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-163.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-163.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-164.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-164.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-165.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-165.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-166.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-166.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-167.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-167.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-168.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-168.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-169.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-169.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-170.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-170.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-171.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-171.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-172.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-172.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-173.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-173.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-174.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-174.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-175.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-175.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-176.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-176.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-177.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-177.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-178.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-178.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-179.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-179.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-180.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-180.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-181.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-181.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-182.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-182.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-183.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-183.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-184.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-184.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-185.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-185.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-186.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-186.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-187.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-187.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-188.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-188.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-189.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-189.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-190.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-190.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-191.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-191.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-192.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-192.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-193.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-193.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-194.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-194.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-195.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-195.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-196.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-196.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-197.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-197.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-198.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-198.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-199.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-199.png" width="900" height="220">
     </div>
   </div>
 
   <div class="responsive zoom">
     <div class="gallery tooltip">
-      <img src="./assets/backgrounds/page-4/amaribg-200.png" width="900" height="220">
+      <img class="zoomD" src="./assets/backgrounds/page-4/amaribg-200.png" width="900" height="220">
     </div>
   </div>
 
@@ -331,6 +362,3 @@
 </body>
 
 </html>
-
-<style>
-</style>

@@ -20,11 +20,6 @@ body {
   behavior: url(PIE.htc);
 }
 
-/* div.gallery {
-    border: 1px solid #FF8A65;
-    margin-top: 10px;
-} */
-
 div.gallery img {
   width: 100%;
   height: 90px;
@@ -70,7 +65,7 @@ div.desc {
   clear: both;
 }
 
-/*? Makes does the zoom*/
+/*! --- HOVER ZOOM ---*/
 .zoom {
   transition: transform 0.2s;
   margin: 0 auto;
@@ -80,4 +75,45 @@ div.desc {
   -ms-transform: scale(1.5); /* IE 9 */
   -webkit-transform: scale(1.5); /* Safari 3-8 */
   transform: scale(1.5);
+}
+
+/*! --- CLICK ZOOM ---*/
+.zoomD {
+  width: 600px;
+  height: auto;
+  cursor: pointer;
+}
+
+#lb-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease 0.4s;
+}
+#lb-back.show {
+  visibility: visible;
+  opacity: 1;
+}
+
+#lb-img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+#lb-img img {
+  width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
 }
